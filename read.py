@@ -24,5 +24,7 @@ for d in data:
     if 'good' in d:
         good.append(d) 
 print('一共有', len(good), '筆留言提到good')
-print[0]                   
+print[0] 
+
+good = [d for d in data if 'good' in d] #list comprehensive(清單快寫法)                  
     
